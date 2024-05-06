@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #03a9f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #03a9f4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999;
+}
+
+/* Call to Action */
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.cta p {
+    font-size: 18px;
+}
+
+.cta .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Social Media Links */
+.social {
+    text-align: center;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social ul li a:hover {
+    text-decoration: underline;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 80px; /* Adjust the size of Minecraft skin head */
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 60px; /* Adjust the size of the logo */
+    height: 60px; /* Ensure logo is square */
+    margin-right: 20px; /* Add some spacing between the logo and Minecraft head */
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-right h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-right p {
+    font-size: 18px;
+    margin-top: 5px;
+}
