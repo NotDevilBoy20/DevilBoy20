@@ -42,21 +42,13 @@
 <body>
     <div class="container">
         <h1 class="logo">Comming Soon</h1>
-        <a href="index.html">Home</a>
+        <button class="button" onclick="goHome()">Home</button>
     </div>
 
     <script>
-        let animationRunning = false;
-
-        function toggleAnimation() {
-            const element = document.querySelector('.logo');
-            if (!animationRunning) {
-                element.style.animation = 'float 2s ease infinite';
-                animationRunning = true;
-            } else {
-                element.style.animation = 'none';
-                animationRunning = false;
-            }
+        function goHome() {
+            
+            window.location.href = "index.html";
         }
     </script>
 </body>
